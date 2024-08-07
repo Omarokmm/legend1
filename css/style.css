@@ -43,8 +43,8 @@
 }
 
 .btn-sm-square {
-    width: 34px;
-    height: 34px;
+    width: 35px;
+    height: 35px;
 }
 
 .btn-md-square {
@@ -387,7 +387,7 @@
 .bg-breadcrumb {
     position: relative;
     overflow: hidden;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/carousel-1.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/353A6044.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -953,4 +953,25 @@ ul li:last-child i{
 }
 ul li p {
     margin-left: 10px;
+}
+.works-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.works-footer div span img {
+    width: 30%;
+    margin-right: 1rem;
+    transition: all .5s ease-in-out;
+}
+.works-footer div span img:hover {
+    cursor: pointer;
+    transform: translateX(-1px);
+    opacity: .5;
+    background-color: #1B2C51;
+}
+
+.form-control:focus{
+    box-shadow :0 0 0 .25rem rgb(208 154 0 / 25%) !important
 }
